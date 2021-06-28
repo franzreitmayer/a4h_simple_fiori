@@ -1,0 +1,16 @@
+<mvc:View
+    controllerName="eu.reitmayer.test.apps.ztstx02.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	
+                        <List items="{/SEPM_I_Address}" headerText="Liste">
+                            <StandardListItem 
+                                title="{StreetName}"
+                                description="{CityName}"
+                            />
+                        </List>
+
+                    
+</mvc:View>
